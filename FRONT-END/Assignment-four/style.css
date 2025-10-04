@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "fon";
+  src: url(./sf-pro-display_regular.woff2);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fon;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#nav {
+  width: 100%;
+  height: 40px;
+  background-color: hsla(0, 0%, 100%, 0.834);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 13px;
+  font-weight: 580;
+  position: fixed;
+}
+a {
+  text-decoration: none;
+  color: rgb(13, 13, 13);
+}
+#phone1 {
+  width: 100%;
+  height: 85%;
+  /* background-color: black; */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#phone2 {
+  width: 100%;
+  height: 85%;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#phone1sub button {
+  padding: 13px 25px;
+  border-radius: 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+#phone2sub button {
+  padding: 13px 25px;
+  border-radius: 40px;
+  margin-top: 20px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#phone1sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+#phone2sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+#phone1 h1 {
+  font-size: 54px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+#phone1 h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+#phone2 h1 {
+  font-size: 54px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+#phone2 h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+#phone1sub .hov {
+  background-color: black;
+  color: rgb(55, 161, 228);
+  border-color: rgb(55, 161, 228);
+}
+#phone2sub .hov {
+  background-color: white;
+  color: rgb(55, 161, 228);
+  border-color: rgb(55, 161, 228);
+}
+
+#phone1sub .hov:hover {
+  background-color: rgb(55, 161, 228);
+  cursor: pointer;
+  color: white;
+}
+#phone2sub .hov:hover {
+  background-color: rgb(55, 161, 228);
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.btn1 {
+  background-color: rgb(55, 161, 228);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(55, 161, 228);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 13px 25px;
+  border-radius: 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+.button2 {
+  background-color: white;
+  color: rgb(55, 161, 228);
+  border-color: rgb(55, 161, 228);
+  padding: 13px 25px;
+  border-radius: 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+.button2:hover {
+  background-color: rgb(55, 161, 228);
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+#Section1 {
+  width: 100%;
+  height: 85%;
+  color: black;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  gap: 10px;
+}
+#sections {
+  width: 100%;
+  height: 100%;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding-top: 30px;
+}
+.sec1 {
+  background-image: url("https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_small.jpg");
+}
+.sec2 {
+  background-image: url("https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_small.jpg");
+}
+#sections h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#sections h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+}
+span{
+  font-weight: 200;
+}
+
+.sec3{
+  background-image: url("https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_small.jpg");
+}
+.sec4{
+  background-image: url("https://www.apple.com/in/home/images/promos/apple-watch-se-3/promo_apple_watch_se_3__fz5y29qx5mmy_large.jpg");
+  background-position: center;
+
+}
+.sec4 h2{
+  padding-top: 50%;
+}

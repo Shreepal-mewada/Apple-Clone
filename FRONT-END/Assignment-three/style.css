@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "cor";
+  src: url(./GreatVibes-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+  width: 100%;
+  height: 100%;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#subheaderone {
+  display: flex;
+  gap: 30px;
+  padding: 20px 40px;
+  justify-content: space-evenly;
+}
+#subheadertwo {
+  display: flex;
+  gap: 30px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+h2 {
+  font-family: cor;
+  padding: 20px;
+  color: #111;
+  font-size: 30px;
+}
+span {
+  color: rgb(188, 18, 18);
+}
+h1 {
+  font-size: 330px;
+  text-align: center;
+  font-weight: 500;
+}
+#containt {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 20%;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.bold {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.lorem {
+  font-size: small;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 70px;
+  margin-top: 40px;
+}
+#corsue {
+  font-family: cor;
+  font-size: 30px;
+  font-weight: 600;
+}
+#images img {
+  height: 200px;
+  position: absolute;
+}
+#first {
+  top: 55%;
+  left: 43%;
+  z-index: 10;
+}
+#second {
+  top: 45%;
+  left: 55%;
+}
+#third {
+  top: 70%;
+  left: 50%;
+}
