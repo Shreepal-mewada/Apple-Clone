@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(200, 194, 195);
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 20 px rgba(0, 0, 0, 0.2);
+}
+.cards img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+button {
+  padding: 12px 15px;
+  font-size: 17px;
+  background-color: rgb(127, 164, 197);
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  box-shadow: 10px 10x 30px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: rgb(119, 152, 182);
+}
+.cards:hover {
+  box-shadow: 10px 10x 30px rgba(0, 0, 0, 0.3);
+  /* transform: translateY(-15px); */
+  scale: 1.06;
+  transition: all 0.3s ease-in-out;
+
+  background-color: rgb(167, 162, 163);
+}
